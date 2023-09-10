@@ -13,7 +13,7 @@ Request Body :
   "first_name" : "Thoriq",
   "last_name" : "Zufar",
   "email" : "thorqi@gmail.com",
-  "phone" : "081233432
+  "phone" : "081233432"
 }
 ```
 
@@ -25,7 +25,7 @@ Response Body Success :
     "first_name" : "Thoriq",
     "last_name" : "Zufar",
     "email" : "thorqi@gmail.com",
-    "phone" : "081233432
+    "phone" : "081233432"
   }
 }
 ```
@@ -50,7 +50,7 @@ Request Body :
   "first_name" : "Thoriq",
   "last_name" : "Zufar",
   "email" : "thorqi@gmail.com",
-  "phone" : "081233432
+  "phone" : "081233432"
 }
 ```
 
@@ -62,7 +62,7 @@ Response Body Success :
     "first_name" : "Thoriq",
     "last_name" : "Zufar",
     "email" : "thorqi@gmail.com",
-    "phone" : "081233432
+    "phone" : "081233432"
   }
 }
 ```
@@ -90,7 +90,7 @@ Response Body Success :
     "first_name" : "Thoriq",
     "last_name" : "Zufar",
     "email" : "thorqi@gmail.com",
-    "phone" : "081233432
+    "phone" : "081233432"
   }
 }
 ```
@@ -125,14 +125,14 @@ Response Body Success :
       "first_name" : "Thoriq",
       "last_name" : "Zufar",
       "email" : "thorqi@gmail.com",
-      "phone" : "081233432
+      "phone" : "081233432"
     },
     {
       "id" : 2,
       "first_name" : "Thoriq",
       "last_name" : "Zufar",
       "email" : "thorqi@gmail.com",
-      "phone" : "081233432
+      "phone" : "081233432"
     },
   ],
   "paging" : {
