@@ -15,6 +15,33 @@ model User {
   password String
   name String
   token String?
+  contacts Contact[]
 
   @@map("users")
+}
+
+model Contact {
+  id Int @id @default(autoincrement())
+  first_name String
+  last_name String?
+  email String?
+  phone String?
+  username String
+  user User @relation(fields: [username], references: [username])
+  addresses Address[]
+
+  @@map("contacts")
+}
+
+model Address {
+  id Int @id @default(autoincrement())
+  street String?
+  city String?
+  privince String?
+  country String
+  postal_code String
+  contact_id Int
+  contact Contact @relation(fields: [contact_id], references: [id])
+
+  @@map("addresses")
 }
