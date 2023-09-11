@@ -18,11 +18,24 @@ const login = async(req, res, next) => {
       data: result
     });
   } catch (e) {
+    next(e);
+  }
+}
 
+const get = async(req, res, next) => {
+  try {
+    const username = req.user.username;
+    const result = await userService.get(username);
+    res.status(200).json({
+      data: result
+    });
+  } catch (e) {
+    next(e);
   }
 }
 
 export {
   register,
-  login
+  login,
+  get
 }
